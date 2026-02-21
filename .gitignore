@@ -39,3 +39,4 @@ replay_*.log
 *.hprof
 *.jfr
 /resources/item-fire_chip.png
+/resources/item-blaze_powder-chip.png

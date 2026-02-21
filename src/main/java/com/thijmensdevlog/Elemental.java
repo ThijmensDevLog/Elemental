@@ -1,5 +1,6 @@
 package com.thijmensdevlog;
 
+import com.thijmensdevlog.block.ModBlocks;
 import com.thijmensdevlog.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -14,6 +15,11 @@ public class Elemental implements ModInitializer {
 	public void onInitialize() {
 		// Load mod
 		LOGGER.debug("LOADING ELEMENTAL");
+
+		// Load stuff from the mod
 		ModItems.registerModItems();
+		ModBlocks.registerModBlock();
+
+		ModCreativeGroups.registerItemGroups();
 	}
 }
