@@ -18,6 +18,13 @@ public class ModCreativeGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.FIRE_CHIP);
                         entries.add(ModItems.BLAZE_POWDER_CHIP);
+
+
+                        entries.add(ModItems.FIRE_AXE);
+                        entries.add(ModItems.FIRE_SWORD);
+                        entries.add(ModItems.FIRE_PICKAXE);
+                        entries.add(ModItems.FIRE_SHOVEL);
+                        entries.add(ModItems.FIRE_HOE);
                     }).build());
 
     public static void registerItemGroups() {

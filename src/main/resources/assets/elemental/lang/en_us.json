@@ -1,6 +1,12 @@
 {
   "item.elemental.fire_chip": "Fire Chip",
-  "item.elemental.blaze_powder_chip": "Blaze powder chip",
+  "item.elemental.blaze_powder_chip": "Blaze Powder Chip",
+
+  "item.elemental.fire_sword": "Fire Sword",
+  "item.elemental.fire_axe": "Fire Axe",
+  "item.elemental.fire_pickaxe": "Fire Pickaxe",
+  "item.elemental.fire_shovel": "Fire Shovel",
+  "item.elemental.fire_hoe": "Fire Hoe",
 
   "itemgroup.elemental.elemental_creative_tab": "Elemental"
 }
