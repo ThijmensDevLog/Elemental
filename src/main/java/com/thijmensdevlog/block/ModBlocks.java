@@ -16,14 +16,21 @@ public class ModBlocks {
     public static final Block FIRE_GRASS_BLOCK = registerBlock("fire_grass_block",
             new GrassBlock(AbstractBlock.Settings
                     .create()
-                    .strength(4f)
+                    .strength(2f)
                     .sounds(BlockSoundGroup.GRASS)));
 
     public static final Block FIRE_DIRT_BLOCK = registerBlock("fire_dirt_block",
             new Block(AbstractBlock.Settings
                     .create()
-                    .strength(4f)
+                    .strength(2f)
                     .sounds(BlockSoundGroup.GRASS)));
+
+    public static final Block FIRE_STONE_BLOCK = registerBlock("fire_stone_block",
+            new Block(AbstractBlock.Settings
+                    .create()
+                    .strength(4f)
+                    .sounds(BlockSoundGroup.STONE)
+                    .requiresTool()));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);

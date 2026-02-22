@@ -32,6 +32,7 @@ public class ModCreativeGroups {
 
                         entries.add(ModBlocks.FIRE_GRASS_BLOCK);
                         entries.add(ModBlocks.FIRE_DIRT_BLOCK);
+                        entries.add(ModBlocks.FIRE_STONE_BLOCK);
                     }).build());
 
     public static void registerItemGroups() {
