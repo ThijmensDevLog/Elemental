@@ -1,6 +1,7 @@
 {
   "parent": "minecraft:block/block",
   "textures": {
+    "particle": "elemental:block/fire_dirt_block",
     "top": "elemental:block/fire_grass_block_top",
     "bottom": "elemental:block/fire_dirt_block",
     "side": "elemental:block/fire_grass_block_side"
