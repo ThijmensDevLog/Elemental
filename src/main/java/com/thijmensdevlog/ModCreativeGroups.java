@@ -1,5 +1,6 @@
 package com.thijmensdevlog;
 
+import com.thijmensdevlog.block.ModBlocks;
 import com.thijmensdevlog.item.ModItems;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
@@ -26,9 +27,11 @@ public class ModCreativeGroups {
                         entries.add(ModItems.FIRE_SHOVEL);
                         entries.add(ModItems.FIRE_HOE);
 
-
                         entries.add(ModItems.BAKED_CARROT);
                         entries.add(ModItems.HOT_FOOD);
+
+                        entries.add(ModBlocks.FIRE_GRASS_BLOCK);
+                        entries.add(ModBlocks.FIRE_DIRT_BLOCK);
                     }).build());
 
     public static void registerItemGroups() {

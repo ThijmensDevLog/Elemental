@@ -3,6 +3,7 @@ package com.thijmensdevlog.block;
 import com.thijmensdevlog.Elemental;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.GrassBlock;
 import net.minecraft.enchantment.EnchantmentLevelBasedValue;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -12,9 +13,18 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 
 public class ModBlocks {
-    //public static final Block FIRE_CHIP_BLOCK = registerBlock("fire_chip_block",
-    //        new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE_BRICKS)));
-    //
+    public static final Block FIRE_GRASS_BLOCK = registerBlock("fire_grass_block",
+            new GrassBlock(AbstractBlock.Settings
+                    .create()
+                    .strength(4f)
+                    .sounds(BlockSoundGroup.GRASS)));
+
+    public static final Block FIRE_DIRT_BLOCK = registerBlock("fire_dirt_block",
+            new Block(AbstractBlock.Settings
+                    .create()
+                    .strength(4f)
+                    .sounds(BlockSoundGroup.GRASS)));
+
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, Identifier.of(Elemental.MOD_ID, name), block);
