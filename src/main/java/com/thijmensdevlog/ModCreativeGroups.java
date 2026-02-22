@@ -25,6 +25,10 @@ public class ModCreativeGroups {
                         entries.add(ModItems.FIRE_PICKAXE);
                         entries.add(ModItems.FIRE_SHOVEL);
                         entries.add(ModItems.FIRE_HOE);
+
+
+                        entries.add(ModItems.BAKED_CARROT);
+                        entries.add(ModItems.HOT_FOOD);
                     }).build());
 
     public static void registerItemGroups() {

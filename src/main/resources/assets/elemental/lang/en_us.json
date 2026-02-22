@@ -8,5 +8,8 @@
   "item.elemental.fire_shovel": "Fire Shovel",
   "item.elemental.fire_hoe": "Fire Hoe",
 
+  "item.elemental.baked_carrot": "Baked Carrot",
+  "item.elemental.hot_food": "Hot Food",
+
   "itemgroup.elemental.elemental_creative_tab": "Elemental"
 }

@@ -12,6 +12,8 @@ public class ModItems {
     public static final Item BLAZE_POWDER_CHIP = registerItem("blaze_powder_chip", new Item(new Item.Settings()));
     public static final Item FIRE_CHIP = registerItem("fire_chip", new Item(new Item.Settings()));
 
+    public static final Item BAKED_CARROT = registerItem("baked_carrot", new Item(new Item.Settings().food(ModFoodComponents.BAKED_CARROT)));
+    public static final Item HOT_FOOD = registerItem("hot_food", new Item(new Item.Settings().food(ModFoodComponents.HOT_FOOD)));
 
     public static final Item FIRE_SWORD = registerItem("fire_sword",
             new SwordItem(ModToolMaterials.FIRE, new Item.Settings()
