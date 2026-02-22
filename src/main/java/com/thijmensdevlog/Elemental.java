@@ -4,6 +4,7 @@ import com.thijmensdevlog.block.ModBlocks;
 import com.thijmensdevlog.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -21,5 +22,8 @@ public class Elemental implements ModInitializer {
 		ModBlocks.registerModBlock();
 
 		ModCreativeGroups.registerItemGroups();
+
+		//Fuels
+		FuelRegistry.INSTANCE.add(ModItems.BLAZE_POWDER_CHIP, 310);
 	}
 }
