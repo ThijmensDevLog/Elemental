@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "elemental:fire_chip"
+    }
+  },
+  "pattern": [
+    "XX",
+    "X#",
+    " #"
+  ],
+  "ingredient": {
+    "item": "minecraft:carrot"
+  },
+  "result": {
+    "count": 1,
+    "id": "elemental:baked_carrot"
+  },
+  "experience": 0.4,
+  "cookingtime": 60
+}
