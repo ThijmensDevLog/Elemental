@@ -32,6 +32,14 @@ public class ModBlocks {
                     .sounds(BlockSoundGroup.STONE)
                     .requiresTool()));
 
+    public static final Block FIRE_COBBLESTONE_BLOCK = registerBlock("fire_cobblestone_block",
+            new Block(AbstractBlock.Settings
+                    .create()
+                    .strength(3f)
+                    .sounds(BlockSoundGroup.STONE)
+                    .requiresTool()));
+
+
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, Identifier.of(Elemental.MOD_ID, name), block);

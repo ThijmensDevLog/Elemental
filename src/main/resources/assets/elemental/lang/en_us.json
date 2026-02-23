@@ -14,6 +14,7 @@
   "block.elemental.fire_grass_block": "Fire Grass Block",
   "block.elemental.fire_dirt_block": "Fire Dirt Block",
   "block.elemental.fire_stone_block": "Fire Stone Block",
+  "block.elemental.fire_cobblestone_block": "Fire Cobblestone Block",
 
   "itemgroup.elemental.elemental_creative_tab": "Elemental"
 }

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:bowl"
+    },
+    "C": {
+      "item": "elemental:baked_carrot"
+    },
+    "P": {
+      "item": "elemental:blaze_powder_chip"
+    }
+  },
+  "pattern": [
+    "PC",
+    "BP"
+  ],
+  "result": {
+    "count": 1,
+    "id": "elemental:hot_food"
+  }
+}
