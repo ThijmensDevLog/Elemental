@@ -19,5 +19,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.FIRE_STONE_BLOCK)
                 .add(ModBlocks.FIRE_COBBLESTONE_BLOCK);
 
+        getOrCreateTagBuilder(BlockTags.DIRT)
+                .add(ModBlocks.FIRE_GRASS_BLOCK)
+                .add(ModBlocks.FIRE_DIRT_BLOCK);
     }
 }

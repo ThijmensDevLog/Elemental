@@ -1,5 +1,5 @@
-// 1.21	2026-02-23T17:55:32.264159614	elemental/Block Loot Tables
-4d156b216a3bd651a1970bdc15ebbe50019f782d data/elemental/loot_table/blocks/fire_stone_block.json
+// 1.21	2026-02-23T22:27:56.817462031	elemental/Block Loot Tables
 64c862dec6b25b1dc51abe78267f0e1459e0b24d data/elemental/loot_table/blocks/fire_dirt_block.json
+4d156b216a3bd651a1970bdc15ebbe50019f782d data/elemental/loot_table/blocks/fire_stone_block.json
 6ce01056ba218fdc07012f4cdb4c572e2d698938 data/elemental/loot_table/blocks/fire_cobblestone_block.json
 a9ff00a3323d48a0f768c8a36d6e92e735a6a62c data/elemental/loot_table/blocks/fire_grass_block.json
