@@ -1,6 +1,7 @@
 package com.thijmensdevlog.datagen;
 
 import com.thijmensdevlog.block.ModBlocks;
+import com.thijmensdevlog.util.ModTags;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.registry.RegistryWrapper;
@@ -22,5 +23,14 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.DIRT)
                 .add(ModBlocks.FIRE_GRASS_BLOCK)
                 .add(ModBlocks.FIRE_DIRT_BLOCK);
+
+        getOrCreateTagBuilder(ModTags.Blocks.FIRE_OAK_TREE)
+                .add(ModBlocks.FIRE_OAK_TREE_LOG)
+                .add(ModBlocks.FIRE_OAK_TREE_WOOD)
+                .add(ModBlocks.STRIPPED_FIRE_OAK_TREE_LOG)
+                .add(ModBlocks.STRIPPED_FIRE_OAK_TREE_WOOD)
+                .add(ModBlocks.FIRE_OAK_TREE_PLANKS)
+                .add(ModBlocks.FIRE_OAK_TREE_LEAVES)
+                .add(ModBlocks.FIRE_OAK_TREE_SAPLING);
     }
 }

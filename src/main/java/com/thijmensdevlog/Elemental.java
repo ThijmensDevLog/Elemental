@@ -6,6 +6,7 @@ import com.thijmensdevlog.world.gen.ModWorldGeneration;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.registry.FuelRegistry;
+import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -28,5 +29,8 @@ public class Elemental implements ModInitializer {
 
 		//Fuels
 		FuelRegistry.INSTANCE.add(ModItems.BLAZE_POWDER_CHIP, 310);
+
+		StrippableBlockRegistry.register(ModBlocks.FIRE_OAK_TREE_LOG, ModBlocks.STRIPPED_FIRE_OAK_TREE_LOG);
+		StrippableBlockRegistry.register(ModBlocks.FIRE_OAK_TREE_WOOD, ModBlocks.STRIPPED_FIRE_OAK_TREE_WOOD);
 	}
 }

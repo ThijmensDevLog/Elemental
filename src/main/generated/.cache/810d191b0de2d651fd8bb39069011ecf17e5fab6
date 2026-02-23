@@ -1,5 +1,12 @@
-// 1.21	2026-02-23T22:27:56.817462031	elemental/Block Loot Tables
-64c862dec6b25b1dc51abe78267f0e1459e0b24d data/elemental/loot_table/blocks/fire_dirt_block.json
+// 1.21	2026-02-24T00:05:36.318805873	elemental/Block Loot Tables
+e1a32926b5a1843ebc6bd9ce39f5b98bbd106bb2 data/elemental/loot_table/blocks/fire_oak_tree_wood.json
+3004ac5167915e10fee5d8bb84a595fffe15db0f data/elemental/loot_table/blocks/fire_oak_tree_sapling.json
 4d156b216a3bd651a1970bdc15ebbe50019f782d data/elemental/loot_table/blocks/fire_stone_block.json
+64c862dec6b25b1dc51abe78267f0e1459e0b24d data/elemental/loot_table/blocks/fire_dirt_block.json
+6bbfd3c73f9b44c2f757f0c38b8b5f4b813e4988 data/elemental/loot_table/blocks/fire_oak_tree_log.json
 6ce01056ba218fdc07012f4cdb4c572e2d698938 data/elemental/loot_table/blocks/fire_cobblestone_block.json
+378a33110824d692645cf3c215267a84a643089d data/elemental/loot_table/blocks/stripped_fire_oak_tree_log.json
+659d5e9341aa32923cb89a566abfc7e86f7285c9 data/elemental/loot_table/blocks/stripped_fire_oak_tree_wood.json
+7f3a803ab635b25a8b3da6bfa571eeeb6a75123b data/elemental/loot_table/blocks/fire_oak_tree_leaves.json
 a9ff00a3323d48a0f768c8a36d6e92e735a6a62c data/elemental/loot_table/blocks/fire_grass_block.json
+12f438d89382b37bd01e442ffd9d76384884ab6c data/elemental/loot_table/blocks/fire_oak_tree_planks.json

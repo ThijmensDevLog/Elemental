@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "elemental:block/stripped_fire_oak_tree_log",
+    "side": "elemental:block/stripped_fire_oak_tree_log"
+  }
+}

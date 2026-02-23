@@ -2,6 +2,7 @@ package com.thijmensdevlog.block;
 
 import com.thijmensdevlog.Elemental;
 import com.thijmensdevlog.block.fire.FireBlocks;
+import com.thijmensdevlog.block.fire.FireTrees;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -17,6 +18,14 @@ public class ModBlocks {
     public static final Block FIRE_DIRT_BLOCK = FireBlocks.FIRE_DIRT_BLOCK;
     public static final Block FIRE_STONE_BLOCK = FireBlocks.FIRE_STONE_BLOCK;
     public static final Block FIRE_COBBLESTONE_BLOCK = FireBlocks.FIRE_COBBLESTONE_BLOCK;
+
+    public static final Block FIRE_OAK_TREE_LOG = FireTrees.FIRE_OAK_TREE_LOG;
+    public static final Block FIRE_OAK_TREE_WOOD = FireTrees.FIRE_OAK_TREE_WOOD;
+    public static final Block STRIPPED_FIRE_OAK_TREE_LOG = FireTrees.STRIPPED_FIRE_OAK_TREE_LOG;
+    public static final Block STRIPPED_FIRE_OAK_TREE_WOOD = FireTrees.STRIPPED_FIRE_OAK_TREE_WOOD;
+    public static final Block FIRE_OAK_TREE_PLANKS = FireTrees.FIRE_OAK_TREE_PLANKS;
+    public static final Block FIRE_OAK_TREE_LEAVES = FireTrees.FIRE_OAK_TREE_LEAVES;
+    public static final Block FIRE_OAK_TREE_SAPLING = FireTrees.FIRE_OAK_TREE_SAPLING;
 
 
 

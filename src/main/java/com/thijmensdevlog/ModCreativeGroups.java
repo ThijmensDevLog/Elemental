@@ -5,7 +5,6 @@ import com.thijmensdevlog.item.ModItems;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.Items;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
@@ -33,6 +32,14 @@ public class ModCreativeGroups {
                         entries.add(ModBlocks.FIRE_GRASS_BLOCK);
                         entries.add(ModBlocks.FIRE_DIRT_BLOCK);
                         entries.add(ModBlocks.FIRE_STONE_BLOCK);
+
+                        entries.add(ModBlocks.FIRE_OAK_TREE_LOG);
+                        entries.add(ModBlocks.FIRE_OAK_TREE_WOOD);
+                        entries.add(ModBlocks.STRIPPED_FIRE_OAK_TREE_LOG);
+                        entries.add(ModBlocks.STRIPPED_FIRE_OAK_TREE_WOOD);
+                        entries.add(ModBlocks.FIRE_OAK_TREE_PLANKS);
+                        entries.add(ModBlocks.FIRE_OAK_TREE_LEAVES);
+                        entries.add(ModBlocks.FIRE_OAK_TREE_SAPLING);
                     }).build());
 
     public static void registerItemGroups() {

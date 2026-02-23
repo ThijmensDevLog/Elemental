@@ -1,18 +1,34 @@
 package com.thijmensdevlog.world;
 
 import com.thijmensdevlog.Elemental;
+import com.thijmensdevlog.block.ModBlocks;
 import net.minecraft.registry.Registerable;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.math.intprovider.ConstantIntProvider;
 import net.minecraft.world.gen.feature.ConfiguredFeature;
 import net.minecraft.world.gen.feature.Feature;
 import net.minecraft.world.gen.feature.FeatureConfig;
+import net.minecraft.world.gen.feature.TreeFeatureConfig;
+import net.minecraft.world.gen.feature.size.TwoLayersFeatureSize;
+import net.minecraft.world.gen.foliage.BlobFoliagePlacer;
+import net.minecraft.world.gen.stateprovider.BlockStateProvider;
+import net.minecraft.world.gen.trunk.StraightTrunkPlacer;
 
 public class ModConfiguredFeatures {
 
-    public static void bootstrap(Registerable<ConfiguredFeature<?, ?>> context) {
+    public static final RegistryKey<ConfiguredFeature<?, ?>> FIRE_OAK_TREE_KEY = registryKey("fire_oak_tree");
 
+    public static void bootstrap(Registerable<ConfiguredFeature<?, ?>> context) {
+        register(context, FIRE_OAK_TREE_KEY, Feature.TREE, new TreeFeatureConfig.Builder(
+                BlockStateProvider.of(ModBlocks.FIRE_OAK_TREE_LOG),
+                new StraightTrunkPlacer(5, 6, 3),
+
+                BlockStateProvider.of(ModBlocks.FIRE_OAK_TREE_LEAVES),
+                new BlobFoliagePlacer(ConstantIntProvider.create(4), ConstantIntProvider.create(1), 3),
+
+                new TwoLayersFeatureSize(1, 0, 2)).build());
     }
 
     public static RegistryKey<ConfiguredFeature<?, ?>> registryKey(String name) {

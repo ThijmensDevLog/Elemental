@@ -7,6 +7,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
+import net.minecraft.data.client.TexturedModel;
 
 public class ModModelProvider extends FabricModelProvider {
     public ModModelProvider(FabricDataOutput output) {
@@ -18,6 +19,13 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.FIRE_DIRT_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.FIRE_STONE_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.FIRE_COBBLESTONE_BLOCK);
+
+        blockStateModelGenerator.registerLog(ModBlocks.FIRE_OAK_TREE_LOG).log(ModBlocks.FIRE_OAK_TREE_LOG).wood(ModBlocks.FIRE_OAK_TREE_WOOD);
+        blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_FIRE_OAK_TREE_LOG).log(ModBlocks.STRIPPED_FIRE_OAK_TREE_LOG).wood(ModBlocks.STRIPPED_FIRE_OAK_TREE_WOOD);
+
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.FIRE_OAK_TREE_PLANKS);
+        blockStateModelGenerator.registerSingleton(ModBlocks.FIRE_OAK_TREE_LEAVES, TexturedModel.LEAVES);
+        blockStateModelGenerator.registerTintableCrossBlockState(ModBlocks.FIRE_OAK_TREE_SAPLING, BlockStateModelGenerator.TintType.NOT_TINTED);
     }
 
     @Override

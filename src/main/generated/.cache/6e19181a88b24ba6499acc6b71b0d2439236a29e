@@ -1,3 +1,4 @@
-// 1.21	2026-02-23T22:27:56.81779991	elemental/Tags for minecraft:block
+// 1.21	2026-02-24T00:05:36.319225409	elemental/Tags for minecraft:block
 3bd42c3878fb4480c95c273a72c7c71b7a2e6db3 data/minecraft/tags/block/dirt.json
+7a7474fee1146d53b17bf54947f8f9a5f8fb8cf5 data/elemental/tags/block/fire_oak_tree.json
 8b202f44e6d127f374db630f8e622d882c80e71a data/minecraft/tags/block/mineable/pickaxe.json

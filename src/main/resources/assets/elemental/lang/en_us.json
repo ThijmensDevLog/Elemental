@@ -16,5 +16,13 @@
   "block.elemental.fire_stone_block": "Fire Stone Block",
   "block.elemental.fire_cobblestone_block": "Fire Cobblestone Block",
 
+  "block.elemental.fire_oak_tree_log": "Fire Oak Log",
+  "block.elemental.fire_oak_tree_wood": "Fire Oak Wood",
+  "block.elemental.stripped_fire_oak_tree_log": "Stripped Fire Oak Log",
+  "block.elemental.stripped_fire_oak_tree_wood": "Stripped Fire Oak Wood",
+  "block.elemental.fire_oak_tree_planks": "Fire Oak Planks",
+  "block.elemental.fire_oak_tree_leaves": "Fire Oak Leaves",
+  "block.elemental.fire_oak_tree_sapling": "Fire Oak Sapling",
+
   "itemgroup.elemental.elemental_creative_tab": "Elemental"
 }

@@ -13,6 +13,7 @@ public class ModTags {
     public static class Blocks {
         public static final TagKey<Block> NEEDS_FIRE_TOOL = createTag("needs_fire_tool");
         public static final TagKey<Block> INCORRECT_FOR_FIRE_TOOL = createTag("incorrect_for_fire_tool");
+        public static final TagKey<Block> FIRE_OAK_TREE = createTag("fire_oak_tree");
 
 
         private static TagKey<Block> createTag(String name) {
