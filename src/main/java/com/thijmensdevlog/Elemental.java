@@ -2,6 +2,7 @@ package com.thijmensdevlog;
 
 import com.thijmensdevlog.block.ModBlocks;
 import com.thijmensdevlog.item.ModItems;
+import com.thijmensdevlog.world.gen.ModWorldGeneration;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.registry.FuelRegistry;
@@ -22,6 +23,8 @@ public class Elemental implements ModInitializer {
 		ModBlocks.registerModBlock();
 
 		ModCreativeGroups.registerItemGroups();
+
+		ModWorldGeneration.generateModWorldGen();
 
 		//Fuels
 		FuelRegistry.INSTANCE.add(ModItems.BLAZE_POWDER_CHIP, 310);
